@@ -50,8 +50,8 @@ class Shelter {
         } else {
           resolve(dirtyCages);
         }
-      });
-    }, 1000);
+      }, 1000);
+    });
   }
 
   findCageByID(id) {
